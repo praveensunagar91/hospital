@@ -1,0 +1,63 @@
+.main-container {
+  padding: 27px;
+  background-color: #d3d3d333;
+  width: 99%;
+  margin: 24px;
+  margin-left: 72px;
+}
+
+a.nav-link.active.active-class {
+  padding: 11px 24px;
+}
+button.add-data {
+  float: right;
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  background-color: cadetblue;
+  font-weight: 700;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 563px;
+    margin: 1.75rem auto;
+}
+}
+.required{
+  color: red;
+}
+.form-control {
+  display: block;
+  width: 20%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button.btn.btn-secondary.close {
+  float: left;
+  margin-left: 119px;
+  margin-top: -35px;
+  background-color: aqua;
+  padding: 7px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+button.form-control.btn.btn-primary.save {
+  background-color: antiquewhite;
+  color: black;
+  font-weight: 600;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+}

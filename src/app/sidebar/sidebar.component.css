@@ -1,0 +1,35 @@
+.vertical-navbar {
+  height: 932px;
+  background-color: #d3d3d333;
+  width: 119%;
+  float: left;
+
+}
+a.nav-link.active.active-class {
+  color: black;
+}
+a.nav-link.router-link-active {
+  color: black;
+}
+a.nav-link {
+  color: black;
+  width: 100%;
+  padding: 14px 0px;
+}
+a.nav-link {
+  width: 100%;
+  padding: 14px 0px;
+}
+a.nav-link.active.active-class {
+  width: 100%;
+  padding: 14px 0px;
+}
+img.icon {
+  height: 21px;
+  margin-left: 12px;
+}
+.ng-tns-c3-0.ng-trigger.ng-trigger-panelState.ui-sidebar.ui-widget.ui-widget-content.ui-shadow.ui-sidebar-active.ui-sidebar-left {
+  width: 9%;
+  margin-top: 54px;
+  background-color: #dee2e6f5;
+}

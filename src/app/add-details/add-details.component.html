@@ -1,0 +1,22 @@
+
+ <form (ngSubmit)="onSaveData(f)" #f="ngForm">
+    <div class="form-group">
+      <label>Id</label>
+      <input type="text" name="id" ngModel class="form-control" placeholder="Enter Id">
+    </div>
+
+     <div class="form-group">
+         <label>Name</label>
+         <input type="text" class="form-control" name="name" ngModel  placeholder="Enter Name">
+       </div>
+       <div class="form-group">
+           <label>description</label>
+           <input type="text" class="form-control" name="description" ngModel  placeholder="Enter Description">
+         </div>
+         <div class="form-group">
+             <label>Is Active</label>
+             <input type="text" class="form-control" name="isactive" ngModel placeholder="Enter Active Status">
+           </div>
+
+                     <button type="submit" class="btn btn-primary">Save changes</button>
+   </form>
